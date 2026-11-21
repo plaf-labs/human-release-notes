@@ -1,4 +1,6 @@
-# human-release-notes
+# human-release-notes — AI release notes & changelog generator (Spanish)
+
+Turn git commits and diffs into clear, user-facing release notes in Spanish (es-419) with any AI assistant: Claude Code, Cursor, GitHub Copilot, Codex or ChatGPT.
 
 A skill that turns commits, diffs, or technical change lists into end-user release notes. Works with any AI assistant.
 
@@ -18,12 +20,12 @@ Paste the contents of `SKILL.md` as the system prompt, custom instructions, or f
 
 Put `SKILL.md` where your tool reads project instructions:
 
-| Tool | Location |
-|---|---|
-| Claude Code | `~/.claude/skills/human-release-notes/SKILL.md` (or project `.claude/skills/`) |
-| Codex, Gemini CLI, others reading `AGENTS.md` | Append contents to `AGENTS.md` |
-| Cursor | Copy into `.cursor/rules/human-release-notes.mdc` |
-| GitHub Copilot | Append contents to `.github/copilot-instructions.md` |
+| Tool                                          | Location                                                                       |
+| --------------------------------------------- | ------------------------------------------------------------------------------ |
+| Claude Code                                   | `~/.claude/skills/human-release-notes/SKILL.md` (or project `.claude/skills/`) |
+| Codex, Gemini CLI, others reading `AGENTS.md` | Append contents to `AGENTS.md`                                                 |
+| Cursor                                        | Copy into `.cursor/rules/human-release-notes.mdc`                              |
+| GitHub Copilot                                | Append contents to `.github/copilot-instructions.md`                           |
 
 Claude Code, command line:
 
